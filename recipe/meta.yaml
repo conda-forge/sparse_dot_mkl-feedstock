@@ -1,18 +1,18 @@
 {% set name = "sparse_dot_mkl" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 09f6a969c0767b448ec4f56d7810f84595bbbbba47679d8f1e9068e1f81141e1
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 79396710e372862075549561ef2ca65c82857b90f23cfc18c78fee2f9bbdb23e
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -35,11 +35,11 @@ test:
     - python -c "import sparse_dot_mkl.tests.test_mkl; sparse_dot_mkl.tests.test_mkl.run()"
 
 about:
-  home: "https://github.com/flatironinstitute/sparse_dot"
+  home: https://github.com/flatironinstitute/sparse_dot
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "Intel MKL wrapper for sparse matrix multiplication"
+  summary: Intel MKL wrapper for sparse matrix multiplication
   description: |
     This package is a ctypes wrapper for the Math Kernel Library matrix multiplicaton.
     It will dot product numpy dense arrays and scipy sparse arrays (multithreaded)
