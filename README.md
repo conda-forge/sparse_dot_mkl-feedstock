@@ -9,6 +9,8 @@ Feedstock license: BSD 3-Clause
 
 Summary: Intel MKL wrapper for sparse matrix multiplication
 
+This package is a ctypes wrapper for the Math Kernel Library matrix multiplicaton.
+It will dot product numpy dense arrays and scipy sparse arrays (multithreaded)
 
 
 Current build status
