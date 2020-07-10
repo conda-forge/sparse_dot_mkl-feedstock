@@ -5,7 +5,7 @@ Home: https://github.com/flatironinstitute/sparse_dot
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Intel MKL wrapper for sparse matrix multiplication
 
