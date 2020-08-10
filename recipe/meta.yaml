@@ -1,5 +1,5 @@
 {% set name = "sparse_dot_mkl" %}
-{% set version = "0.5.4" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6dab66a25cdd48bc21b7ba1665d2ca9b001de9a85f028c1fd0e9f898e84f3065
+  sha256: 7ce96ad2ef0e48b2ca044f52587c4fe3a12c5875d59ffd38ae6bd50faa0b6d76
 
 build:
   noarch: python
