@@ -1,11 +1,11 @@
-About sparse_dot_mkl
-====================
+About sparse_dot_mkl-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sparse_dot_mkl-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/flatironinstitute/sparse_dot
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sparse_dot_mkl-feedstock/blob/main/LICENSE.txt)
 
 Summary: Intel MKL wrapper for sparse matrix multiplication
 
