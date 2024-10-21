@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools
   run:
     - numpy >=1.16
     - python >=3.6
