@@ -31,7 +31,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-sparse_dot_mkl-green.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sparse_dot_mkl.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sparse_dot_mkl.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sparse_dot_mkl.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sparse__dot__mkl-green.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sparse_dot_mkl.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sparse_dot_mkl.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sparse_dot_mkl.svg)](https://anaconda.org/conda-forge/sparse_dot_mkl) |
 
 Installing sparse_dot_mkl
 =========================
