@@ -11,17 +11,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
   run:
     - numpy >=1.16
-    - python >=3.6
+    - python >={{ python_min }}
     - scipy >=1.0
     - mkl >=2020.0
 
@@ -32,6 +32,7 @@ test:
   requires:
     - coverage
     - nose
+    - python {{ python_min }}
   commands:
     - python -c "import sparse_dot_mkl.tests.test_mkl; sparse_dot_mkl.tests.test_mkl.run()"
 
